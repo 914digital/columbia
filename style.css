@@ -1,0 +1,313 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	max-width:100%;
+}
+
+header {
+	margin-top:20px;
+}
+
+.colum-logos {
+	float:right;
+}
+
+.colum-logos a:first-child {
+	margin-right:20px;
+}
+
+.top-contact {
+	margin-top: 20px;
+    float: right;
+    padding: 6px 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color:#616161
+}
+
+.top-contact a {
+	color:#616161;
+	font-weight:300;
+}
+
+.sep {
+	display:inline-block;
+	margin:0 15px;
+}
+
+.input-pos-top {
+	float:right;
+	width:40%;
+	margin-top:20px;
+}
+
+.top-nav {
+	text-align:center;
+	margin-top:15px;
+}
+
+.bot-nav {
+	background-color:#174581;
+	margin-top:-20px;
+	padding-left:0;
+	height:80px;
+}
+
+
+.bot-nav>li  {
+	float:left;
+	position:relative;
+	list-style:none;
+	display:block;
+	}
+	
+.bot-nav>li>a {
+	padding:20px 17px;
+	color:#fff;
+	text-align:center;
+	display:block;
+	background-color: #174581;
+	transition:all .3s ease-in-out;
+}
+
+
+
+.bot-nav>li>a:hover {
+	background-color:#1b75bc;
+	text-decoration:none;
+}
+
+.middle {
+	position:relative;
+	padding: 30px 17px!important;
+}
+
+.main-content {
+	padding:20px 0;
+}
+
+.main-news {
+	padding:30px 0;
+}
+
+.main-news h2 {
+	color:#174581;
+	font-size:26px;
+}
+
+.news-item {
+	display:block;
+	margin:20px 0;
+}
+
+.news-item:hover {
+	text-decoration:none;
+}
+
+.news-item img {
+	width:100%
+}
+
+.news-item h3 {
+	font-size: 20px;
+    line-height: 23px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.news-item p {
+	color:#000;
+}
+
+.sidebar-item {
+	padding:20px;
+	background-color:#f2f2f2;
+	margin:20px 0;
+}
+
+.sidebar-item:first-child {
+	margin:0 0 20px;
+}
+
+.event-item {
+	display:block;
+	margin:25px 0;
+}
+
+.event-item p {
+	color:#333;
+}
+
+.date {
+	border: 2px solid #636363;
+    text-align: center;
+}
+
+.month {
+	display:block;
+	background-color:#636363;
+	color:#f2f2f2;
+}
+
+.day {
+	display:block;
+	font-weight:bold;
+	font-size:40px;
+	color:#636363;
+}
+
+.sdbr-btn {
+	background-color: #174581;
+    color: #fff;
+    border-radius: 0;
+    float: right;
+    transition:all .3s ease-in-out;
+}
+
+.sdbr-btn:hover, .sdbr-btn:focus {
+	color:#fff;
+	background-color: #1b75bc;
+}
+
+.sb-news-item {
+	display:block;
+	padding:20px 0;
+}
+
+.sb-news-item h4 {
+	margin: 0;
+}
+
+.sb-news-item p {
+	color:#333;
+}
+
+.footer-top {
+	background-color:#174581;
+	padding:20px 0;
+}
+
+.footer-top ul {
+	padding-left:0;
+}
+
+.footer-top li {
+	list-style: none;
+    float: left;
+    text-align: center;
+    padding: 5px 43px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.footer-top li a {
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.footer-bot {
+	background-color:#1b75bc;
+	padding:10px;
+}
+
+.footer-bot p {
+	color:#fff;
+	float:right;
+	margin-top:15px;
+}
+
+.footer-bot a {
+	color:#fff;
+}
+
+.navbar-nav {
+    margin: 0 -15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:#174581;
+}
+
+.navbar {
+	border-radius:0;
+	border: 0;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 40px 47px;
+    border-right: 1px solid;
+    font-size: 17px;
+    color:#174581;
+    transition:all .3s ease-in-out;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: #e9ebee;
+}
+
+.navbar-default .navbar-nav>li:last-child a {
+	border-right:0;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+	    .colum-logos {
+		    display:none;
+	    }
+	    
+	    .input-pos-top {
+			width: 100%;
+}
+
+.nav>li>a {
+	border:0;
+}
+
+.bot-nav {
+background-color: #174581;
+    margin-top: 0;
+    padding-left: 0;
+    height: inherit;
+    }
+    
+    .bot-nav>li {
+    float: none;
+    
+    
+    }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
+
+
