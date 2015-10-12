@@ -12,6 +12,7 @@
     <link href="style.css" rel="stylesheet">
     <link href="css/fa/css/font-awesome.min.css" rel="stylesheet">
    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+ 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -142,6 +143,9 @@ CS + Other</a></li>
 </div>
 					     
 				     </div><!-- /news-carousel -->
+				     <div class="infinite-container">
+					     
+				   <div class="infinite-item">
 				     <div class="main-news">
 				     <div class="row">
 					      <div class="col-md-6">
@@ -189,7 +193,21 @@ CS + Other</a></li>
 			     </div><!-- /col-md-6 -->
 					     
 				     </div><!-- /row  -->
+				     
+				    				     
+				     
 				     </div><!-- /main-news -->
+				   </div><!-- /infinite-item -->
+				     </div><!-- /infinite-container  -->
+				   
+				   <a class="infinite-more-link" href="page2.html"><img src="img/loading.gif" /></a>
+
+				 
+				      
+			   
+				     
+								     
+				     
 			     </div><!-- /col-md-8 -->
 			     
 			     <!-- SIDEBAR CONTENT -->
@@ -380,6 +398,8 @@ Monday, 11:00 | Davis Auditorium</p>
    </div><!-- /main-content -->
    
    
+   
+   
    <div class="footer-top">
 	   <div class="container">
 		   <div class="row">
@@ -416,7 +436,45 @@ Monday, 11:00 | Davis Auditorium</p>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery.waypoints.js"></script>
+    <script src="js/infinite.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+      
+  
+  
+  
+  
+     <script>
+      var num = 137; //number of pixels before modifying styles
+    
+    $(window).bind('scroll', function () {
+        if ($(window).scrollTop() > num) {
+            $('.navbar').addClass('fixed');
+             $('.bot-nav').addClass('fixed-bot');
+    		 
+    		  
+        } else {
+            $('.navbar').removeClass('fixed');
+             $('.bot-nav').removeClass('fixed-bot');
+            
+    		
+    		  
+        }
+    });
+    </script>
+    
+    <script>
+	  var infinite = new Waypoint.Infinite({
+  element: $('.infinite-container')[0]
+})
+</script>
+    
+    
+      
+    
+       
+    
   </body>
 </html>
